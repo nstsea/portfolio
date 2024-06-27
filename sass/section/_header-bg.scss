@@ -1,0 +1,18 @@
+.header-bg {
+  position: relative;
+  z-index: -1;
+  margin-top: -188px;
+
+  display: flex;
+  justify-content: center;
+
+  /* Tablet-big */
+  @media (max-width: 1139px) {
+    margin-top: -225px;
+  }
+
+  /* Tablet-small */
+  @media (max-width: 899px) {
+    margin-top: -181px;
+  }
+}

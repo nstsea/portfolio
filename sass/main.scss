@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+// Base
+@import "./base/vars";
+@import "./base/reset";
+@import "./base/base";
+
+// Blocks
+@import "./blocks/header";
+@import "./blocks/gradient-border";
+@import "./blocks/buttons";
+@import "./blocks/social-icons";
+@import "./blocks/cards";
+@import "./blocks/footer";
+@import "./blocks/mobile-nav";
+
+// Section 
+@import "./section/header-info";
+@import "./section/header-bg";
+@import "./section/skills-section";
+@import "./section/portfolio-section";
+@import "./section/timeline-section";
+@import "./section/contacts-section";
+

@@ -1,0 +1,141 @@
+.contacts {
+  padding-top: 65px;
+  padding-bottom: 92px;
+  background: linear-gradient(0deg, #F5FBFF 0%, #F5FBFF 100%), #F4F8F9;
+  text-align: center;
+
+  /* Tablet-big */
+  @media (max-width: 1139px) {
+    padding-top: 40px;
+    padding-bottom: 68px;
+  }
+
+  /* Tablet-small */
+  @media (max-width: 899px) {
+    padding-bottom: 40px;
+  }
+}
+
+.contacts__row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 34px;
+
+  /* Tablet-big */
+  @media (max-width: 1139px) {
+    margin-bottom: 27px;
+  }
+
+  /* Tablet-small */
+  @media (max-width: 899px) {
+    margin-bottom: 25px;
+  }
+}
+
+.contacts__section-header {
+  margin-bottom: 60px;
+
+  /* Tablet-big */
+  @media (max-width: 1139px) {
+    margin-bottom: 40px;
+  }
+}
+
+.contacts__info li {
+  display: flex;
+  align-items: center;
+  column-gap: 85px;
+  margin-bottom: 22px;
+  line-height: 1.6; 
+  font-size: 22px;
+
+  /* Tablet-big */
+  @media (max-width: 1139px) {
+    font-size: 18px;
+    column-gap: 35px;
+    margin-bottom: 16px;
+
+  /* Tablet-small */
+  @media (max-width: 899px) {
+    font-size: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+  }
+
+  & span {
+    display: inline-block;
+    text-align: left;
+    width: 103px;
+    font-weight: 600;
+
+    /* Tablet-big */
+    @media (max-width: 1199px) {
+      width: 84px;
+    }
+  }
+
+  & a {
+    color: #1A71D2;
+    font-weight: 400;
+
+    /* Tablet-big */
+    @media (max-width: 1139px) {
+      font-size: 18px;
+    }
+
+    /* Tablet-small */
+    @media (max-width: 899px) {
+      font-size: 16px;
+    }
+  }
+}
+
+.contacts__info li:last-child {
+  margin-bottom: 0;
+}
+
+.contacts__description {
+  position: relative;
+  text-align: left;
+  & p {
+  width: 538px;
+  font-size: 18px;
+  line-height: 1.6; 
+
+  /* Tablet-big */
+  @media (max-width: 1139px) {
+    width: 420px;
+    font-size: 16px;
+  }
+
+  /* Tablet-small  */
+  @media (max-width: 899px) {
+    font-size: 14px;
+    width: 290px;
+  }
+  }
+}
+
+.contacts__description::after {
+  position: absolute;
+  display: block;
+  content: '';
+  background-image: url(./../img/quotes-icon.svg);
+  width: 280px;
+  height: 243px;
+  right: -108px;
+  bottom: -37px;
+
+  /* Tablet-big */
+  @media (max-width: 1139px) {
+    right: 1px;
+    bottom: -75px;
+  }
+
+  /* Tablet-small */
+  @media (max-width: 899px) {
+    display: none;
+  }
+}

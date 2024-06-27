@@ -1,0 +1,34 @@
+ .gradient-border {
+  display: inline;
+  background-repeat: no-repeat;
+  background-position: center bottom 15px;
+  background-size: 100% 10px;
+  background-image: linear-gradient(to right, $accent-color, $accent-color);
+
+  /* Tablet-small */
+  @media (max-width: 1199px) {
+  background-position: center bottom 9px;
+  }
+}
+
+.portfolio__section-header .gradient-border,
+.timeline__section-header .gradient-border,
+.contacts__section-header .gradient-border {
+  background-position: center bottom 10px;
+  background-size: 100% 8px;
+
+  /* Tablet-small */
+  @media (max-width: 899px) {
+    background-position: center bottom 5px;
+  }
+}
+
+.timeline-item .gradient-border {
+  background-position: center bottom 4px;
+  background-size: 100% 6px;
+
+  /* Tablet-small */
+  @media (max-width: 899px) {
+    background-position: center bottom 2px;
+  }
+}

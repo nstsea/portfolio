@@ -1,0 +1,34 @@
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 360px;
+
+  /* Tablet-small */
+  @media (max-width: 899px) {
+    width: 270px;
+  }
+}
+
+.social-icons svg {
+  /* Tablet-small */
+  @media (max-width: 899px) {
+    width: 38px;
+    height: 38px;
+  }
+}
+
+.header-skills .social-icons {
+  margin-bottom: 20px;
+}
+
+.mail .link {
+  color: #1A71D2;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.3;
+
+  /* Tablet */
+  @media (max-width: 1139px) {
+    font-size: 18px;
+  }
+}
